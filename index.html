@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="shortcut icon" type="icon" href="assets/img/inul.webp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Inul Tamayo"
+    />
+    <title>Inul Tamayo</title>>
+
+
+    <!--==================== OPEN GRAPH META TAGS ===================== -->
+    <meta property="og:title" content="Inul Tamayo" />
+    <meta property="og:image" content="icon.jpg" />
+    <meta
+      property="og:description"
+      content="Inul Tamayo Squad"
+    />
+
+    <!--==================== TWITTER META TAGS ===================== -->
+    <meta name="twitter:title" content="Inul Tamayo" />
+    <meta
+      name="twitter:description"
+      content="Inul Tamayo Squad"
+    />
+    <meta name="twitter:image" content="icon.jpg" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- ====================PWA================== -->
+    <link rel="manifest" href="icon.jpg" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/32.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/72.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/100.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/128.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/144.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/152.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/192.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/256.png" />
+    <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
+    <meta name="theme-color" content="#6E57E0" />
+
+    <!-- ============FAVICONS============== -->
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="icon.jpg"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ===================== LOADER ==================== -->
+    <div id="loading">
+      <div class="loader"><span></span><span>/></span></div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="kaivermillion.my.id" class="nav__logo noSelect">Inul Tamayo</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link noSelect active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#inulprofile" class="nav__link noSelect">
+                <i class="uil uil-user nav__icon"></i> Inul Profile's
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#inulhotelhideaway" class="nav__link noSelect">
+                <i class="uil uil-cloud nav__icon"></i> Group Profile
+              </a>
+            </li>
+
+                        <li class="nav__item">
+              <a href="#leaderprofile" class="nav__link noSelect">
+                <i class="uil uil-user nav__icon"></i>Leader Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#adminprofile" class="nav__link noSelect">
+                <i class="uil uil-user nav__icon"></i> Admin Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link noSelect">
+                <i class="uil uil-user nav__icon"></i> Member Profile(Soon)
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
+        </div>
+
+
+        <div class="nav__btns">
+          <!-- theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle noSelect" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.youtube.com/@InulTamayo"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-youtube"></i>
+              </a>
+              <a
+                href="https://t.me/InulTamayo"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-telegram-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-20"
+                    xlink:href="assets/img/inul5.png"
+                  ></image>
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Inul Tamayo</h1>
+              <h3 class="home__subtitle">Squad Games</h3>
+                            <h4>Tamayo Visitor Count:</h4>
+             <!-- hitwebcounter Code START -->
+              <br>
+              <div>
+              <img src="https://count.getloli.com/@inul tamayo?name=inul+tamayo&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
+                </div>
+              <br>
+              <h5>Thanks For Visit inul tamayo! ｡⁠◕⁠‿⁠◕⁠｡</h5>
+              <p class="home__description">
+               Inul tamayo adalah grup yang dibuat di Hotel Hideaway yang 
+               terinspirasi dari artis indonesia bernama Inul Daratista -Rddha
+              </p>
+              <a href="#" class="button button--flex">
+                Inul Tamayo On Instagrams(Soon)<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#freebot" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== ABOUT ====================-->
+
+    <section class="about section" id="inulprofile">
+      <h2 class="section__title">Inul Tamayo Profile's</h2>
+      <span class="section__subtitle">most active group on Hotel Hideaway!</span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/Icon_oasis_lobby.webp" alt="" class="about__image" />
+
+        <div class="about__data">
+          <p class="about__description">
+           Temukan kami di grup Hotel Hideaway bernama Inul Daratista!
+          </p>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">13</span>
+              <span class="about__info-name"
+                >Active <br />
+                Member</span
+              >
+            </div>
+
+            <div>
+              <span class="about__info-title">Inul Tamayo</span>
+              <span class="about__info-name"
+                >Founded By <br />
+                Rraditt, Rddha, Reivy</span
+              >
+            </div>
+
+            <div>
+              <span class="about__info-title">Close</span>
+              <span class="about__info-name"
+                >Member <br />
+                Recruitment</span
+              >
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a
+              download=""
+              href="#"
+              class="button button--fic"
+            >
+              Inul Tamayo Instagram(Soon)<i class=" uil-comment-alt-upload"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PROJECT IN MIND ====================-->
+
+    <section class="about section" id="inulhotelhideaway">
+      <h2 class="section__title">Inul Tamayo Hotel Hideaway</h2>
+      <span class="section__subtitle">Group Status!</span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/Icon_sunset_street.webp" alt="" class="about__image" />
+
+        <div class="about__data">
+          <p class="about__description">
+           Disini adalah status grup Inul yang berada di Hotel Hideaway
+          </p>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">Berlian Hitam</span>
+              <span class="about__info-name"
+                >Liga <br />
+                Status</span
+              >
+            </div>
+
+            <div>
+              <span class="about__info-title">38</span>
+              <span class="about__info-name"
+                >Member <br />
+                Status</span
+              >
+            </div>
+
+            <div>
+              <span class="about__info-title">Close</span>
+              <span class="about__info-name"
+                >Member Recruitment <br />
+                Status</span
+              >
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a
+              download=""
+              href="#"
+              class="button button--fic"
+            >
+              Request To Join (closed)<i class=" uil-comment-alt-upload"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="leaderprofile">
+      <h2 class="section__title">Leader Profile</h2>
+      <span class="section__subtitle">Leader Of Hotel Hideaway Inul Group</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== PORTFOLIO 1====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/leaderprofile/rdhaa.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: Rdhaa-</h3>
+              <p class="portfolio__description">
+                Leader Of Inul Tamayo 
+                <br>
+                They call her : riddha
+              </p>
+              <a
+                href="https://www.instagram.com/rhoeisu?igsh=aXRvbmJ5aHdmZGxz"
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+    </section>
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="adminprofile">
+      <h2 class="section__title">Admin Profile</h2>
+      <span class="section__subtitle">Admin Of Hotel Hideaway Inul Group</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== PORTFOLIO 1====================-->
+     <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/adminprofile/rraditt.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: Rraditt</h3>
+              <p class="portfolio__description">
+                Admin Of Inul Tamayo 
+                <br>
+                They call him : Radit
+              </p>
+              <a
+                href="https://www.instagram.com/rradithh?igsh=MWtoaWk3dTZhdnI5cg=="
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+           <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/adminprofile/lovemenot.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: Love Me Not</h3>
+              <p class="portfolio__description">
+                Admin Of Inul Tamayo 
+                <br>
+                They call him : Shun
+              </p>
+              <a
+                href="https://www.instagram.com/shunzle?igsh=MWQwZHY0MGs0bnhqeQ=="
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+           <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/adminprofile/shfyya.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: Shfyya</h3>
+              <p class="portfolio__description">
+                Admin Of Inul Tamayo 
+                <br>
+                They call her : piyya
+              </p>
+              <a
+                href="https://www.instagram.com/sofiaaiueo?igsh=ZHNoaTFhMmhycDlo"
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+           <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/adminprofile/beiva.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: FL Thebeiva2</h3>
+              <p class="portfolio__description">
+                Admin Of Inul Tamayo 
+                <br>
+                They call him : angga
+              </p>
+              <a
+                href="https://www.instagram.com/thebeix2?igsh=Njlhb3oxNTg1aHNk"
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+           <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/adminprofile/reivyou.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nickname: Reivyou'</h3>
+              <p class="portfolio__description">
+                Admin Of Inul Tamayo 
+                <br>
+                They call him : Rei
+              </p>
+              <a
+                href="https://www.instagram.com/reivyou?igsh=MTd1MGt2ZDZ6cW81eA=="
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Instagram
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+    </section>
+    
+
+    <!--==================== CONTACT ME ====================-->
+
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Inul Tamayo</h2>
+      <span class="section__subtitle">Most Active group on Hotel Hideaway!</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Inul Tamayo Contact</h3>
+              <span class="contact__subtitle">+62 ---soon---</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Inul Tamayo Email</h3>
+              <span class="contact__subtitle">inultamayo@soon!</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Group Location</h3>
+              <span class="contact__subtitle">Bahasa Indonesia</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Inul Tamayo</h1>
+            <span class="footer__subtitle">A Games Group!</span>
+          </div>
+
+        <p class="footer__copy">&#169; Shunzle | Laki Zhuxin</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ===================== SHOW/HIDE LOADER ==================== -->
+    <script>
+      window.onload = function () {
+        document.getElementById("loading").style.display = "none";
+      };
+    </script>
+
+    <!-- =====================REGISTER SERVICE WORKER================ -->
+ <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/serviceWorker.js")
+            .then((res) => console.log("service worker registered"))
+            .catch((err) => console.log("service worker not registered", err));
+        });
+      }
+
+
+    </script>
+
+  </body>
+</html>
